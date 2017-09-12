@@ -10,7 +10,7 @@ class Member extends React.Component{
   render(){
   	return(
   	  <li className="Member">
-  	    <input type="text" value={this.member.name}/>
+  	    {this.member.name}
   	  </li>
   	);
   }
